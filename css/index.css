@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat,sans-serif;
+    background: rgb(19,17,28);
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgb(19,17,28);
+    height: 70px !important;
+    padding-top: 20px !important;
+}
+
+.nav-item{
+    border: 1px solid rgb(133, 76, 230);
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.signInLogo{
+    color: rgb(133, 76, 230);
+}
+
+.nav-item:hover{
+    background-color: rgb(133, 76, 230);
+    .signInLogo{
+        color: #fff;
+    }
+    .signInTitle{
+        color: #fff;
+    }
+}
+
+.navbar-brand{
+    font-weight: 600 !important;
+    font-size: 25px !important;
+    color: rgb(133, 76, 230)!important;
+}
+
+.signInTitle{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    color: rgb(133, 76, 230);
+    font-size: 15px;
+}
+
+.landingpage-info{
+    margin-top: 180px;
+}
+
+.landing-page-heading{
+    color: #fff;
+    font-size: 60px;
+    padding-top: 80px;
+}
+
+.manage-project-button a{
+    text-decoration: none;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(76.35deg, rgb(128, 26, 230) 15.89%, rgb(162, 26, 230) 89.75%);
+    color: rgb(242, 243, 244);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.features , .benefits{
+    margin-top: 150px;
+}
+
+.title{
+    margin-bottom: 90px;
+    justify-content: center;
+    font-size: 50px;
+    color:  rgb(48, 110, 232);;
+}
+
+.features-container , .benefits-container{
+    width: 80%;
+    justify-content: center;
+}
+
+.features-info {
+    width: 350px;
+    height: 190px;
+    background-color: rgb(19, 17, 28);
+    border: 0.1px solid rgb(48, 110, 232);
+    border-radius: 16px;
+    padding: 24px 42px;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    margin: 10px;
+}
+
+.features-info h1{
+    font-size: 22px;
+    color: rgb(140, 174, 242);
+}
+
+.features-info p{
+    color: grey;
+}
+
+
+.title-benefits{
+    margin-bottom: 90px;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(133, 76, 230);
+}
+
+.benefits-info {
+    width: 350px;
+    height: 190px;
+    background-color: rgb(19, 17, 28);
+    border: 0.1px solid rgb(133, 76, 230);;
+    border-radius: 16px;
+    padding: 24px 42px;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    margin: 10px;
+}
+
+.benefits-info h1{
+    font-size: 22px;
+    color: rgb(133, 76, 230);
+}
+
+.benefits-info p{
+    color: grey;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: (19,17,28);
+}
+
+footer p{
+    color: lightgrey;
+}
+
+.modal-dialog{
+    margin-top: 150px;
+    background-color: rgb(28, 30, 39) !important;
+}
+
+.modal-content{
+    padding: 10px;
+}
+
+.btn-close{
+    color: red !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.signup,.login{
+    color: white;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .signup-form,
+  .login-form{
+    padding: 40px;
+    padding-top: 5px;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    height: 350px;
+  }
+  
+  .input{
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: rgb(28, 30, 39);
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(140, 151, 154);
+    color: #3e3e40;
+    font-size: 14px;
+    outline: none;
+    transform: all 0.5s ease;
+  }
+  
+  .input:focus{
+    border: 2px solid rgb(140, 151, 154);
+  }
+  
+
+  
+  @media (max-width: 576px) {
+    .landingpage-info{
+        margin-top: 50px;
+    }
+    .landing-page-heading{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .milestone-img img {
+        padding-top: 25px;
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .manage-project-button{
+        margin-top: -15px;
+    }
+    .manage-project-button a{
+        text-decoration: none;
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+        padding: 16px 20px;
+        font-size: 15px;
+        font-weight: 600;
+        background: linear-gradient(76.35deg, rgb(128, 26, 230) 15.89%, rgb(162, 26, 230) 89.75%);
+        color: rgb(242, 243, 244);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 768px) {
+    .landingpage-info{
+        margin-top: 50px;
+    }
+    .landing-page-heading{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .milestone-img img {
+        padding-top: 25px;
+        width: 360x !important;
+        height: 360px !important;
+    }
+    .manage-project-button{
+        margin-top: -15px;
+    }
+    .manage-project-button a{
+        text-decoration: none;
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+        padding: 16px 20px;
+        font-size: 15px;
+        font-weight: 600;
+        background: linear-gradient(76.35deg, rgb(128, 26, 230) 15.89%, rgb(162, 26, 230) 89.75%);
+        color: rgb(242, 243, 244);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .landingpage-info{
+        margin-top: 50px;
+    }
+    .landing-page-heading{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .manage-project-button{
+        margin-top: -15px;
+    }
+    .manage-project-button a{
+        text-decoration: none;
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+        padding: 16px 20px;
+        font-size: 15px;
+        font-weight: 600;
+        background: linear-gradient(76.35deg, rgb(128, 26, 230) 15.89%, rgb(162, 26, 230) 89.75%);
+        color: rgb(242, 243, 244);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .milestone-img img {
+        padding-top: 25px;
+        width: 400px !important;
+        height: 400px !important;
+    }
+}
